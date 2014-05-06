@@ -11,14 +11,13 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery
 //= require handlebars
 //= require ember
 //= require ember-data
 //= require_self
-//= require wikipages_with_ember
+//= require_tree .
 
 // for more details see: http://emberjs.com/guides/application/
 App = Ember.Application.create();
 
-//= require_tree .
+
