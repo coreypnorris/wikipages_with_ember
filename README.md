@@ -1,3 +1,3 @@
 == README
 
-This is a simple contacts app modified to respond to json requests.
+This is a simple contacts app built with ember and rails on the backend.
