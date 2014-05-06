@@ -2,6 +2,7 @@
 
 <ul>
   {{#each}}
-    <li>{{#link-to 'contact' this}}{{name}}{{/link-to}}</li>
+    <li>{{#link-to 'contact' this}}{{name}}{{/link-to}}
+    <button {{action deleteContact}} class="btn btn-danger btn-x">Delete</button></li>
   {{/each}}
 </ul>
