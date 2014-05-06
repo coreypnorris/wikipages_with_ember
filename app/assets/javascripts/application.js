@@ -19,6 +19,6 @@
 //= require wikipages_with_ember
 
 // for more details see: http://emberjs.com/guides/application/
-WikipagesWithEmber = Ember.Application.create();
+App = Ember.Application.create();
 
 //= require_tree .
