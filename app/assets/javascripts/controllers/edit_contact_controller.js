@@ -1,4 +1,4 @@
-App.EdiContactController = Ember.ObjectController.extend({
+App.EditContactController = Ember.ObjectController.extend({
   actions: {
     updateContact: function() {
       var model = this.get('model');
