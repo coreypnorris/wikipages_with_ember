@@ -1,8 +1,14 @@
 <h1>Wikipages</h1>
 
-<ul>
+<div class="col-md-8">
+  <ul>
   {{#each itemController='contact'}}
     <li>{{#link-to 'contact' this}}{{name}}{{/link-to}}
-    <button {{action deleteContact}} class="btn btn-danger btn-x">Delete</button></li>
+        <button {{action deleteContact}} class="btn btn-danger btn-xs">Delete</button></li>
   {{/each}}
-</ul>
+  </ul>
+</div>
+
+<div class="col-md-4">
+  {{outlet}}
+</div>
