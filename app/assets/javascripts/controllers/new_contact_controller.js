@@ -4,10 +4,10 @@ App.NewContactController = Ember.ObjectController.extend({
       var model = this.get('model');
       var controller = this;
 
-      model.save();
+      model.save()
       .then(function() {
         controller.transitionToRoute('contact', model);
-      });
+      })
       .catch(function() {
         alert("Please fix the problems noted.");
       });
